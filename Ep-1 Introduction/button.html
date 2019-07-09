@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Button</title>
+    <link rel="stylesheet" type="text/css" href="../source/bootstrap4/css/bootstrap.min.css">
+    <script src="../source/bootstrap4/js/jquery.min.js"></script>
+    <script src="../source/bootstrap4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <button type="button" class="btn btn-primary btn-lg mr-5 ">Large button</button>
+    <button type="button" class="btn btn-secondary btn-sm">Large button</button>
+    <br><br>
+    <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+    <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+    <br><br>
+    <button type="button" class="btn btn-lg btn-primary" disabled>Primary button</button>
+    <button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
+    <br><br>
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-secondary ">
+            <input type="radio" name="options" id="option1" autocomplete="off"> Active
+        </label>
+        <label class="btn btn-secondary active">
+            <input type="radio" name="options" id="option2" autocomplete="off" checked> Radio
+        </label>
+        <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+        </label>
+    </div>
+    <br>
+    <h1>Button toolbar</h1>
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group mr-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-secondary">1</button>
+            <button type="button" class="btn btn-secondary">2</button>
+            <button type="button" class="btn btn-secondary">3</button>
+            <button type="button" class="btn btn-secondary">4</button>
+        </div>
+        <div class="btn-group mr-2" role="group" aria-label="Second group">
+            <button type="button" class="btn btn-secondary">5</button>
+            <button type="button" class="btn btn-secondary">6</button>
+            <button type="button" class="btn btn-secondary">7</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Third group">
+            <button type="button" class="btn btn-secondary">8</button>
+        </div>
+    </div>
+</body>
+
+</html>
