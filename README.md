@@ -14,6 +14,33 @@
 		<script src="../source/bootstrap4/js/bootstrap.js"></script>
 	```
 
+# Keyword Layout
+### **`Containers`**
+- container: have margin, padding.
+- container-fluid : full.
+
+### **`Response breakpoint`**
+ >size
+- xs: extra small devices
+- sm: small devices
+- md: medium devices
+- lg: lagre devices
+- xl: extra large devices
+- auto
+
+### **`Grid`**
+- row-*size*
+- col-*size*
+- justify-content-*
+	- start
+	- end
+	- between
+	- around
+	- center
+
+### **`Utilities for layout`**
+>[Explain more](https://getbootstrap.com/docs/4.3/layout/utilities-for-layout/)
+
 # Color
 - transparent
 - primary: `#cce5ff`
@@ -29,6 +56,7 @@
  		 A simple primary alert—check it out!
 	</div>
 	```
+
 
 # Keyword Components
 >Name class
