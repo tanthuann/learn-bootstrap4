@@ -15,7 +15,7 @@
 	```
 
 # Color
-
+- transparent
 - primary: `#cce5ff`
 - secondary: `#e2e3e5`
 - success: `#d4edda`
@@ -51,7 +51,7 @@
 - active
  	>[Explain more](https://getbootstrap.com/docs/4.3/components/breadcrumb/#changing-the-separator)
 
-### **`Button`**
+### **`Buttons`**
 - btn
 - btn-*color*
 - btn-outline-*color*
@@ -59,6 +59,77 @@
 - btn-sm
 - btn-block
 - out class: disabled
-	- ```<a>``` don’t support the disabled attribute, so you must add the .disabled class to make it visually appear disabled.
+	> ```<a>``` don’t support the disabled attribute, so you must add the .disabled class to make it visually appear disabled.
+- active
+- btn-group
+- btn-group-lg/ btn-group-sm
+ 	>[Explain more](https://getbootstrap.com/docs/4.3/components/button-group/)
 
+### **`Card`**
+- card
+- card-header
+- card-body
+- card-footer
+- card-title
+- card-text
+- card-img-top
+- card border-*color*
+- card bg-*color*
+- card-group
+- card-deck
 
+### **`Carousel`**
+- id="carouselExampleControls"
+- id="carouselExampleSlidesOnly"
+- id="carouselExampleIndicators"
+- id="carouselExampleCaptions"
+- id="carouselExampleFade"
+- carousel slide
+- carousel-inner
+- carousel-item
+- active
+- carousel-control-prev/next
+- carousel-control-prev/next-icon
+- carousel-indicators
+- carousel-fade
+- data-interval="1000"
+
+### **`Collapse`**
+- accordian
+- id="accordionExample"
+ 	>Using the card component, you can extend the default collapse behavior to create an accordion. To properly achieve the accordion style, be sure to use .accordion as a wrapper.
+---
+- collapse
+- show
+- collapsed
+- data-toggle="collapse"
+- data-target="#collapseOne"
+- aria-expanded="true"
+- aria-controls="collapseOne"
+---
+- id="collapseOne"
+- class="collapse show"
+- aria-labelledby="headingOne"
+- data-parent="#accordionExample"
+
+### **`Dropdown`**
+- dropup
+- dropleft
+- dropright
+- dropdown
+- dropdown-toggle
+- dropdown-toggle-split
+---
+- id="dropdownMenuButton"
+- data-toggle="dropdown"
+- aria-haspopup="true"
+- aria-expanded="false"
+- data-offset="10,20"
+---
+- dropdown-menu
+- dropdown-item
+- dropdown-divider
+- dropdown-menu-lg-right (align)
+- dropdown-header
+- disabled / active
+- text-muted
